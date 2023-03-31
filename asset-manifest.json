@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tanks-todo-list/static/css/main.63b235e4.css",
+    "main.js": "/tanks-todo-list/static/js/main.93d15ec4.js",
+    "index.html": "/tanks-todo-list/index.html",
+    "main.63b235e4.css.map": "/tanks-todo-list/static/css/main.63b235e4.css.map",
+    "main.93d15ec4.js.map": "/tanks-todo-list/static/js/main.93d15ec4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63b235e4.css",
+    "static/js/main.93d15ec4.js"
+  ]
+}
