@@ -1,0 +1,43 @@
+.form {
+    margin: 10px auto 30px;
+}
+.form input {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    transition: border-color 0.4s ease;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+}
+
+.form input:focus {
+    border-color: rgb(82, 217, 220);
+}
+.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: rgb(65, 189, 217);
+}
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(27, 27, 27, 0.5);
+}
+
+.btn:active {
+    transform: translateY(-3px);
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+}
